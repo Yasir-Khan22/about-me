@@ -11,5 +11,12 @@ body {
     margin: 1rem;
     padding: 3rem 1rem;
     border: 2px solid red;
+}
+.heading {
+    
+    border: 2px solid green;
+}
+.svg-wrapper {
+    border: 2px solid turquoise;
 
 }
