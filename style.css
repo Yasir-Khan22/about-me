@@ -1,3 +1,6 @@
+:root {
+  --clr-background: #FFE7BF;
+}
 * {
     margin: 0;
     padding: 0;
@@ -5,18 +8,29 @@
 }
 body {
     font-family: cascadia code;
+    background: var(--clr-background);
 }
 .container {
     max-width: 1200px;
     margin: 1rem;
     padding: 3rem 1rem;
     border: 2px solid red;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .heading {
-    
+    display: flex;
+    flex-direction: column;
+    width: 50%;
     border: 2px solid green;
 }
 .svg-wrapper {
     border: 2px solid turquoise;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
 
 }
