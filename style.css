@@ -24,8 +24,7 @@ body {
 .heading {
     display: flex;
     flex-direction: column;
-    max-width: 50%;
-    border: 2px solid red;
+    width: 50%;
 }
 
 .heading h2 {
@@ -37,11 +36,15 @@ body {
 .heading .icons {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
+    margin: 0.5rem 1rem;
+
 }
 .heading .icons a {
-    font-size: 1.5rem;
-    color:  #9cd691;
+    font-size: 2rem;
+    color:  #fff;
+    margin-left: .5rem;
+   margin-right: .5rem;
 }
 .svg-wrapper {
     display: flex;
